@@ -84,7 +84,7 @@ $ fizzbuzz-cli --help                                                           
 Usage: fizzbuzz-cli [OPTIONS] [NUMS]...
 
   Fizz Buzz program. If no arguments are passed, it reads numbers from
-  stdin.")
+  stdin."
 
 Options:
   --fizz INTEGER  Number corresponds to Fizz.
