@@ -1,4 +1,4 @@
-def fizzbuzz(n: int, fizz=3, buzz=5) -> str:
+def fizzbuzz(n: int, fizz: int = 3, buzz: int = 5) -> str:
     """Fizz Buzz function.
 
     >>> fizzbuzz(3)
