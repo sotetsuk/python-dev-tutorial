@@ -11,7 +11,7 @@ setup(
     install_requires=["pytest"],
     packages=find_packages(exclude=["tests"]),
     entry_points={
-        'console_scripts': 'fizzbuzz-cli = fizzbuzz.main:main'
+        'console_scripts': 'fizzbuzz-cli = fizzbuzz.fizzbuzz:main'
     },
     classifiers=[
         "Programming Language :: Python :: 3.8",
