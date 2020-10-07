@@ -10,11 +10,11 @@ def fizzbuzz(n: int, fizz: int = 3, buzz: int = 5) -> str:
     >>> fizzbuzz(2)
     '2'
     """
-    if n % 15 == 0:
+    if n % fizz == 0 and n % buzz == 0:
         return "FizzBuzz"
-    elif n % 3 == 0:
+    elif n % fizz == 0:
         return "Fizz"
-    elif n % 5 == 0:
+    elif n % buzz == 0:
         return "Buzz"
     else:
         return str(n)
