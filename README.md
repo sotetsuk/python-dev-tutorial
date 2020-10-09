@@ -80,7 +80,7 @@ Fizz
 See help message for further usage.
 
 ```sh
-$ fizzbuzz-cli --help                                                                                                                                                                                                                                                                                       (/docs/readme✱)
+$ fizzbuzz-cli --help                                                                                                                                                                                                                                                                                       (sotetsuk/docs/readme✱)
 Usage: fizzbuzz-cli [OPTIONS] [NUMS]...
 
   Fizz Buzz program. If no arguments are passed, it reads numbers from
