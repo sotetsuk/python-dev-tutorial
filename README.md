@@ -80,11 +80,11 @@ Fizz
 See help message for further usage.
 
 ```sh
-$ fizzbuzz-cli --help                                                                                                                                                                                                                                                                                       (sotetsuk/docs/readme✱)
+$ fizzbuzz-cli --help
 Usage: fizzbuzz-cli [OPTIONS] [NUMS]...
 
   Fizz Buzz program. If no arguments are passed, it reads numbers from
-  stdin."
+  stdin.
 
 Options:
   --fizz INTEGER  Number corresponds to Fizz.
