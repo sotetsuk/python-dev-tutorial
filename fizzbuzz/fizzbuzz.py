@@ -29,8 +29,7 @@ def fizzbuzz(n: int, fizz: int = 3, buzz: int = 5) -> str:
 @click.option("--fizz", type=int, default=3, help="Number corresponds to Fizz.")
 @click.option("--buzz", type=int, default=5, help="Number corresponds to Buzz.")
 def main(nums, fizz, buzz):
-    """Fizz Buzz program. If no arguments are passed, it reads numbers from stdin."
-    """
+    """Fizz Buzz program. If no arguments are passed, it reads numbers from stdin."""
 
     if nums:  # 数字の列が引数から渡された場合には、それらの数字にFizzBuzzを適用する
         sys.stderr.write("Reading numbers from arguments ...\n")
