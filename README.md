@@ -23,7 +23,8 @@
 8. [CLIツールとして使えるようにしてみよう](https://github.com/sotetsuk/python-dev-tutorial/issues/15)
 9. [(Optional) 便利な外部ライブラリをインストールして使ってみよう (Pytest編)](https://github.com/sotetsuk/python-dev-tutorial/issues/17)
 10. [(Optional) 便利な外部ライブラリをインストールして使ってみよう (Click編)](https://github.com/sotetsuk/python-dev-tutorial/issues/19)
-11. [しっかりとしたREADMEを書こう](https://github.com/sotetsuk/python-dev-tutorial/issues/22)
+11. [型チェックを使ってみよう](https://github.com/sotetsuk/python-dev-tutorial/issues/40)
+12. [しっかりとしたREADMEを書こう](https://github.com/sotetsuk/python-dev-tutorial/issues/22)
 
 ---
 
