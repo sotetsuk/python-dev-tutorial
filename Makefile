@@ -1,10 +1,13 @@
-.PHONY: pytest install uninstall clean
+.PHONY: pytest install uninstall clean check
 
 pytest:
 	pytest --doctest-modules
 
 install:
 	python3 setup.py install 
+
+check:
+	mypy fizzbuzz
 
 uninstall:
 	pip3 uninstall fizzbuzz -y
