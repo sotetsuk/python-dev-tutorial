@@ -8,7 +8,7 @@ setup(
     url='https://github.com/sotetsuk/python-dev-tutorial',
     author_email='koyamada-s@sys.i.kyoto-u.ac.jp',
     license='MIT',
-    install_requires=["pytest", "click"],
+    install_requires=["pytest", "click", "mypy"],
     packages=find_packages(exclude=["tests"]),
     entry_points={
         'console_scripts': 'fizzbuzz-cli = fizzbuzz.fizzbuzz:main'
